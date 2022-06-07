@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-* main - prints alphabet except q and e
+* main - prints alphabet in reverse
 * Return: 0
 */
 
@@ -18,4 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
