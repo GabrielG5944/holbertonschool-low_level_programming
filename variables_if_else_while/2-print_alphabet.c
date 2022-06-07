@@ -6,7 +6,7 @@
 
 int main(void)
 {
-char ALPH[26] = "abcdefghijklmnopqrstuvwxyz";
+char ALPH[27] = "abcdefghijklmnopqrstuvwxyz";
 int i = 0;
 
 while (i < 26)
