@@ -6,7 +6,7 @@
 
 int main(void)
 {
-char ALPH[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char ALPH[53] = "aabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i = 0;
 
 while (i < 53)
