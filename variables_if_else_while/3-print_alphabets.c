@@ -6,12 +6,11 @@
 
 int main(void)
 {
-char ALPH[53] = "aabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int i = 0;
+char ALPH[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
 
-while (i < 53)
+for (i = 0; i < 52; i++)
 {
-i++;
 putchar(ALPH[i]);
 }
 
