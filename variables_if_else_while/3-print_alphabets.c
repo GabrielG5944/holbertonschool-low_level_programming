@@ -6,10 +6,10 @@
 
 int main(void)
 {
-char ALPH[53] = "aabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char ALPH[54] = "aabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i = 0;
 
-while (i < 53)
+while (i < 54)
 {
 i++;
 putchar(ALPH[i]);
