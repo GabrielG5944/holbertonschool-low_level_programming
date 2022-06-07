@@ -1,10 +1,17 @@
 #include <stdio.h>
 /**
-* main
+* main - prints base 10 nums
 * Return: 0
 */
 
 int main(void)
 {
-return (0):
+	int i;
+
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
