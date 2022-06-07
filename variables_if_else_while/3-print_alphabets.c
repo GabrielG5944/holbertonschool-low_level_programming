@@ -1,10 +1,22 @@
 #include <stdio.h>
 /**
-* main
+* main - prints alphabet lower
 * Return: 0
 */
 
 int main(void)
 {
-return (0):
+char ALPH[53] = "aabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i = 0;
+
+while (i < 53)
+{
+i++;
+putchar(ALPH[i]);
 }
+
+putchar('\n');
+
+return (0);
+}
+
